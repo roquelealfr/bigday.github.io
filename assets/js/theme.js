@@ -108,7 +108,7 @@ var theme = function() {
     // ---------------------------------------------------------------------------------------
     $(window).load(function() {
         $('#status').fadeOut();
-        $('#preloader').delay(200).fadeOut(100);
+        $('#preloader').delay(0).fadeOut(0);
     });
 
     // Shrink header on scroll
